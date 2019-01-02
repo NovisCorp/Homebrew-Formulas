@@ -1,14 +1,8 @@
 class PythonAT36 < Formula
   desc "Interpreted, interactive, object-oriented programming language"
   homepage "https://www.python.org/"
-  url "https://www.python.org/ftp/python/3.6.7/Python-3.6.7.tar.xz"
-  sha256 "81fd1401a9d66533b0a3e9e3f4ea1c7c6702d57d5b90d659f971e6f1b745f77d"
-
-  bottle do
-    sha256 "1bc5a2d3f0a8602bf2f46de7c43fcb6dde4f110c0f4518d4e802cb1f733a43de" => :high_sierra
-    sha256 "131d39120ac6ca2f21bf231de7414c08916cea472bc5219e0bcb49541f77cb9f" => :sierra
-    sha256 "b2584ea6f16c47fe3795745e9cae5a7762f750aa78c15cbe14736dcd2602b755" => :el_capitan
-  end
+  url "https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz"
+  sha256 "f434053ba1b5c8a5cc597e966ead3c5143012af827fd3f0697d21450bb8d87a6"
 
   head do
     url "https://github.com/python/cpython.git"
